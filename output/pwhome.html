@@ -6,11 +6,11 @@
    <link rel="stylesheet" href="output.css">
     <title>PW Skills -a web page </title>
 </head>
-<body class="bg-slate-950">
+<body class="bg-slate-950" >
 <!-- 
     navbar start from here -->
 
-   <nav class="w-full h-16 bg-sky-200  flex justify-between
+   <nav class=" h-16 bg-sky-200  flex justify-between
     px-5 items-center md:px-10">
     <div class="  text-2xl text-indigo-700  font-bold   cursor-pointer "> Pw Skills  </div>
           <ul class="md:flex  hidden font-semibold">
@@ -18,11 +18,16 @@
               <li class="mx-[10px] cursor-pointer hover:border-b-2 border-pink-600 p-1"> <a href="#2"> AboutUs</a> </li>
               <li class="mx-[10px] cursor-pointer hover:border-b-2 border-pink-600 p-1"> <a href=""> Contact</a>  </li>
           </ul>
-    <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white
-       font-bold rounded cursor-pointer   hover:bg-blue-200 hover:text-blue-100  "> Login/ Singup</div>
+          <div id="login" class="hidden md:block px-2 py-2 bg-indigo-700 text-white font-bold rounded cursor-pointer hover:bg-slate-600 hover:text-teal-600">
+            Login/Signup
+          </div>
+          <div class="md:hidden">
+            <a id="navbar" class="text-2xl font-bold" href="#"> &#8801; </a>
+          </div>
+          
+         
 
-       <div class="md:hidden">
-         <a  class="text-2xl font-bold" href="#"> &#8801; </a></div>
+  
    </nav>
      
     <!-- navbar ends here -->
@@ -46,7 +51,7 @@
 
     <!-- Our students section -->
 
-   <div class="h-auto w-100  flex flex-col flex-wrap  items-center text-center p-10">
+   <div class="h-auto w-100  flex flex-col flex-wrap  items-center text-center p-10 bg-slate-950">
       <div class="w-full h-auto flex flex-col flex-wrap items-center ">
         <p class="text-indigo-700 font-bold text-2xl md:text-4xl text-center" id="2"> "Pure Hardwork , No shortcuts!"</p>
        </div>
@@ -224,7 +229,12 @@
                 <p> Careers</p>
             </div>
         </div>
-     </footer>
+        
 
+      
+
+     </footer>
+    
+       <script src="script.js"></script>
 </body>
 </html>
